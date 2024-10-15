@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'LightFont';
+  src: url('./assets/fonts/Cano.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'LightFont', sans-serif;
+}
+
+:root {
+  --yellow: #f4e33b;
+  --secondary-yellow: #f8da5a;
+  --dark-yellow: #f7b03b;
+  --primary: #185fab;
+  --light-blue: #3b7dba;
+  --dark-blue: #175fab;
+}
+
+:where(.css-dev-only-do-not-override-1hpnbz2).ant-collapse>.ant-collapse-item>.ant-collapse-header .ant-collapse-header-text {
+  margin-inline-end: auto;
+  font-size: 1.4rem;
+  color: var(--primary);
+}
+
+:where(.css-dev-only-do-not-override-1hpnbz2).ant-collapse .ant-collapse-content {
+  color: rgba(0, 0, 0, 0.88);
+  background-color: transparent;
+  color: var(--primary);
+  border-top: 1px solid #d9d9d9;
+}
