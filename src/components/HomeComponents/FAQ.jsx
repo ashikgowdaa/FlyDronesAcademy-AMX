@@ -1,11 +1,7 @@
 import React from 'react'
 import { Collapse } from 'antd';
 const FAQ = () => {
-    const text = `
-    A dog is a type of domesticated animal.
-    Known for its loyalty and faithfulness,
-    it can be found as a welcome guest in many households across the world.
-  `;
+  
   const items = [
     {
       key: '1',
@@ -48,18 +44,18 @@ const FAQ = () => {
         console.log(key);
       };
   return (
-    <div className=' text-primaryColor min-h-[50vh]'>
+    <div className=' text-primaryColor md:min-h-[50vh]'>
  <div className='w-full flex flex-col m-0 text-center items-center justify-center'>
         <div className="heading p-2 text-[2rem] flex justify-center items-center text-center m-0 bg-white w-full">FAQ</div>
 
-        <div className='w-full min-h-[50vh]'
+        <div className='w-full min-h-full md:min-h-[50vh]'
          style={{
             background: "linear-gradient(to right, #f8da5a 60%, rgba(244, 227, 59, 0)), url('https://aactxg.stripocdn.email/content/guids/CABINET_f37167ea2322984dfeb6a0a05e92d2480b49356b15fb055bb2ce2e84131a12e4/images/vector_01.JPG')",
             backgroundSize: 'cover',
             backgroundPosition: 'center right',
           }}
           >
-          <div className="paragraphs py-6 px-12 text-[1.5rem] text-left w-full flex items-center justify-center " >
+          <div className="paragraphs py-4 px-4 md:py-6 md:px-12 text-[1.5rem] text-left w-full flex items-center justify-center " >
 
           <div className='max-w-[1280px] w-full'>
           <Collapse items={items} defaultActiveKey={['1']} onChange={onChange} />
