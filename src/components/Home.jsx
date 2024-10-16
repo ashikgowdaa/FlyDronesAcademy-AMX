@@ -16,8 +16,8 @@ const Home = () => {
       <MidSection />
       <CourseBanner />
       <Descriptions />
-      <IndustryApplications />
-      <FAQ />
+    <IndustryApplications />
+        <FAQ />
       <Partners />
       <Locations />
       <Contacts />

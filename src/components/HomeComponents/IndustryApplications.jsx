@@ -26,23 +26,24 @@ const IndustryApplications = () => {
            <div className='w-full flex flex-col m-0 text-center items-center justify-center'>
         <div className="heading p-2 text-[2rem] flex justify-center items-center text-center m-0 bg-white w-full">Industry Applications</div>
 
-          <div className="paragraphs max-w-[1200px] flex justify-center items-center gap-8 flex-wrap ">
-          {data.map((item, index)=>{
-            return (
-                <>
-                     <div className="py-6 px-12 text-[1.2rem] border ">
-          <div className="imageContainer w-full">
-            <img className="w-[320px] h-[250px]" src={item.image} alt="" />
-          </div>
-          <div className="textContent text-[1.4rem]">
-          {item.text}
-          </div>
-        </div>
-                </>
-            )
-          })}
-       
-        </div>
+        <div className="paragraphs w-full md:w-full max-w-[340px] md:max-w-[1200px] flex flex-wrap md:justify-center md:items-center gap-4 md:gap-8">
+  {data.map((item, index) => (
+    <div
+      key={index}
+      className="py-4 px-4 md:py-6 md:px-12 text-[1.2rem] border rounded-md w-[calc(50%-16px)] md:w-auto"
+    >
+      <div className="imageContainer md:w-full flex justify-center items-center">
+        <img
+          className="w-[120px] h-[120px] md:w-[320px] md:h-[260px]"
+          src={item.image}
+          alt=""
+        />
+      </div>
+      <div className="textContent text-[1rem] md:text-[1.4rem]">{item.text}</div>
+    </div>
+  ))}
+</div>
+
         </div>
     </div>
   )

@@ -25,13 +25,13 @@ const Partners = () => {
       return (
         <div className='p-4 text-primaryColor'>
                <div className='w-full flex flex-col m-0 text-center items-center justify-center'>
-            <div className="heading p-2 text-[2.2rem] flex justify-center items-center text-center m-0 bg-white w-full">Companies we have Partnered for Placement</div>
+            <div className="heading p-2 text-[1.3rem] md:text-[2.2rem] flex justify-center items-center text-center m-0 bg-white w-full">Companies we have Partnered for Placement</div>
     
-              <div className="paragraphs max-w-[1280px] flex justify-center items-center gap-4 flex-wrap ">
+              <div className="paragraphs max-w-[1280px] w-full md:w-full flex justify-center items-center gap-4 flex-wrap ">
               {data.map((item, index)=>{
                 return (
                     <>
-                         <div className="py-6 px-12 text-[1.2rem]">
+                         <div className="py-3 px-3 md:py-6 md:px-12 text-[1.2rem]">
               <div className="imageContainer w-full">
                 <img className="w-[130px] h-[130px]" src={item.image} alt="" />
               </div>
