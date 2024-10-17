@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Footer = () => {
     return (
         <div className='text-secondaryColor bg-primaryColor min-h-[10vh]'>

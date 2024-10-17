@@ -1,15 +1,14 @@
-import React from 'react';
-import Banner from './HomeComponents/Banner';
-import MidSection from './HomeComponents/MidSection';
-import CourseBanner from './HomeComponents/CourseBanner';
-import Descriptions from './HomeComponents/Descriptions';
-import IndustryApplications from './HomeComponents/IndustryApplications';
-import Locations from './HomeComponents/Locations';
-import FAQ from './HomeComponents/FAQ';
-import Partners from './HomeComponents/Partners';
-import Contacts from './HomeComponents/Contacts';
+import Banner from '../CareerComponents/Banner';
+import MidSection from '../CareerComponents/MidSection';
+import CourseBanner from '../CareerComponents/CourseBanner';
+import Descriptions from '../CareerComponents/Descriptions';
+import IndustryApplications from '../CareerComponents/IndustryApplications';
+import Locations from '../CareerComponents/Locations';
+import FAQ from '../CareerComponents/FAQ';
+import Partners from '../CareerComponents/Partners';
+import Contacts from '../CareerComponents/Contacts';
 
-const Home = () => {
+const Careers = () => {
   return (
     <div>
       <div id="banner">
@@ -43,4 +42,5 @@ const Home = () => {
   );
 };
 
-export default Home;
+
+export default Careers
