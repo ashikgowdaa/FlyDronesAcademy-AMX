@@ -14,8 +14,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-white text-black flex md:flex-row md:px-32 md:py-6 gap-3 md:gap-8">
-      <div className="image-container w-[80px] h-[80px]">
+    <div className="bg-white max-h-[10vh] h-[10vh] text-black flex md:flex-row md:px-32 md:py-3 gap-3 md:gap-8">
+      <div className="image-container w-[60px] h-[60px]">
         <Link to="/">
           <img
             className="h-auto w-auto object-cover"

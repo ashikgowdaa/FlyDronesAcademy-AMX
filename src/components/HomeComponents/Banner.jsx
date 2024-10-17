@@ -1,6 +1,6 @@
 const Banner = () => {
   return (
-    <div className="relative h-[400px] md:h-[70vh]">
+    <div className="relative h-[400px] md:h-[90vh]">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
@@ -8,10 +8,10 @@ const Banner = () => {
       ></div>
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black opacity-30"></div>
+      <div className="absolute inset-0 bg-violet-950 opacity-50"></div>
       {/* Text Content */}
       <div className="relative banner-text-container">
-    <div className="h-[380px] md:h-[75vh] flex flex-col md:flex-row justify-between gap-2 sm:gap-4 md:gap-16 px-2 py-2 md:px-32 md:py-8 items-center">
+    <div className="h-[380px] md:h-[90vh] flex flex-col md:flex-row justify-between gap-2 sm:gap-4 md:gap-16 px-2 py-2 md:px-32 md:py-8 items-center">
 
       <div className=" text-black text-2xl font-bold flex justify-center items-center w-full md:w-[50%] m-2 md:m-auto">
       <div className="image-container w-[220px] h-[220px] md:w-[360px] md:h-[360px] object-cover">

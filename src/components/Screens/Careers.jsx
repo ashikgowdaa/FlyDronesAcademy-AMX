@@ -1,12 +1,13 @@
 import Banner from '../CareerComponents/Banner';
 import MidSection from '../CareerComponents/MidSection';
 import CourseBanner from '../CareerComponents/CourseBanner';
-import Descriptions from '../CareerComponents/Descriptions';
 import IndustryApplications from '../CareerComponents/IndustryApplications';
 import Locations from '../CareerComponents/Locations';
 import FAQ from '../CareerComponents/FAQ';
 import Partners from '../CareerComponents/Partners';
 import Contacts from '../CareerComponents/Contacts';
+import WhyWorkWithUs from '../CareerComponents/WhyWorkWithUs';
+import JobListings from '../CareerComponents/JobListings';
 
 const Careers = () => {
   return (
@@ -21,19 +22,10 @@ const Careers = () => {
         <CourseBanner />
       </div>
       <div id="descriptions">
-        <Descriptions />
+        <WhyWorkWithUs />
       </div>
-      <div id="industry-applications">
-        <IndustryApplications />
-      </div>
-      <div id="faq">
-        <FAQ />
-      </div>
-      <div id="partners">
-        <Partners />
-      </div>
-      <div id="locations">
-        <Locations />
+      <div id="jobs">
+        <JobListings />
       </div>
       <div id="contacts">
         <Contacts />
