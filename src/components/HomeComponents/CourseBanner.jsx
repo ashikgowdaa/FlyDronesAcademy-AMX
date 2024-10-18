@@ -8,10 +8,10 @@ const CourseBanner = () => {
       ></div>
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black opacity-5"></div>
+      <div className="absolute inset-0 bg-yellow-500 opacity-15"></div>
       {/* Text Content */}
       <div className="relative banner-text-container">
-    <div className="h-[400px] md:h-[72vh] flex flex-col md:flex-row justify-between items-center gap-6 md:gap-16 px-4 md:px-32 py-2 md:py-8">
+    <div className="h-[400px] md:h-[72vh] flex flex-col md:flex-row justify-between items-center gap-6 md:gap-16 px-4 md:px-[5rem] py-2 md:py-8">
 
       <div className="flex flex-col gap-3 md:gap-12 w-full md:w-[80%] text-primaryColor">
       <div >
@@ -30,9 +30,11 @@ const CourseBanner = () => {
     </div>
     
     <div className=" text-black text-2xl font-bold flex flex-col gap-6 justify-center items-center w-full md:w-[50%] m-auto">
-      <div className="image-container p-4 flex flex-col gap-2 items-center justify-center w-[190px] h-[190px] md:w-[220px] md:h-[220px] rounded-full mb-2 md:mb-6  text-white bg-fill"         
-      style={{ backgroundImage: "url('https://aactxg.stripocdn.email/content/guids/CABINET_f37167ea2322984dfeb6a0a05e92d2480b49356b15fb055bb2ce2e84131a12e4/images/vector_02.JPG')" }}
-      >
+      <div className="image-container p-4 flex flex-col gap-2 items-center justify-center w-[190px] h-[190px] md:w-[220px] md:h-[220px] rounded-full mb-2 md:mb-6  text-white  bg-fill object-cover"        
+    style={{ 
+      backgroundImage: "url('https://aactxg.stripocdn.email/content/guids/CABINET_f37167ea2322984dfeb6a0a05e92d2480b49356b15fb055bb2ce2e84131a12e4/images/vector_02.JPG')",
+     
+  }}>      
       <div className="flex text-[1.6rem] md:text-[1.8rem] opacity-90">Course Fees</div>
       <div className="flex text-[1.3rem] md:text-[1.6rem] opacity-90">₹ 50,000 /-</div>
       <div className="flex text-[1.3rem] md:text-[1.6rem] opacity-90">inc. of all taxes</div>

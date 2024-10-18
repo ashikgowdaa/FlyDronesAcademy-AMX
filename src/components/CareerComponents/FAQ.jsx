@@ -6,7 +6,7 @@ const FAQ = () => {
     {
       key: '1',
       label: 'What does FlyDro do ?',
-      children:<span className='bg-transparent text-[1.1rem] justify-inter-word'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit cupiditate eos ut quos numquam tempore consequatur obcaecati exercitationem deleniti architecto aspernatur doloribus voluptate eum praesentium officiis asperiores facere aut modi, nam ea perferendis. Voluptatum voluptates laudantium amet officiis animi ex! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat quaerat quia, laudantium rem cum non, voluptatum earum hic facilis officia consequuntur eveniet. Ex, veritatis ratione optio quas laudantium cumque dolore. Quos recusandae saepe molestiae inventore impedit autem eveniet deleniti quis.</span>,
+      children:<span className='bg-transparent text-[1.1rem]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit cupiditate eos ut quos numquam tempore consequatur obcaecati exercitationem deleniti architecto aspernatur doloribus voluptate eum praesentium officiis asperiores facere aut modi, nam ea perferendis. Voluptatum voluptates laudantium amet officiis animi ex! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat quaerat quia, laudantium rem cum non, voluptatum earum hic facilis officia consequuntur eveniet. Ex, veritatis ratione optio quas laudantium cumque dolore. Quos recusandae saepe molestiae inventore impedit autem eveniet deleniti quis.</span>,
     },
     {
       key: '2',
@@ -29,14 +29,14 @@ const FAQ = () => {
       {
         key: '5',
         label: 'What does FlyDro do ?',
-        children:<span className='bg-transparent text-[1.1rem] justify-inter-word'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit dolorum doloribus magnam debitis, dignissimos eligendi itaque consequatur, quam a excepturi assumenda dolores, minima fugit nostrum facilis nisi. Nostrum aperiam, incidunt facere quae placeat quia, tempore ut quod quisquam quas nam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat quaerat quia, laudantium rem cum non, voluptatum earum hic facilis officia consequuntur eveniet. Ex, veritatis ratione optio quas laudantium cumque dolore. Quos recusandae saepe molestiae inventore impedit autem eveniet deleniti quis.</span>,
+        children:<span className='bg-transparent text-[1.1rem]'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit dolorum doloribus magnam debitis, dignissimos eligendi itaque consequatur, quam a excepturi assumenda dolores, minima fugit nostrum facilis nisi. Nostrum aperiam, incidunt facere quae placeat quia, tempore ut quod quisquam quas nam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat quaerat quia, laudantium rem cum non, voluptatum earum hic facilis officia consequuntur eveniet. Ex, veritatis ratione optio quas laudantium cumque dolore. Quos recusandae saepe molestiae inventore impedit autem eveniet deleniti quis.</span>,
    
      
       },
       {
         key: '6',
         label: 'What does FlyDro do ?',
-        children:<span className='bg-transparent text-[1.1rem] justify-inter-word' >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit cupiditate eos ut quos numquam tempore consequatur obcaecati exercitationem deleniti architecto aspernatur doloribus voluptate eum praesentium officiis asperiores facere aut modi, nam ea perferendis. Voluptatum voluptates laudantium amet officiis animi ex! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat quaerat quia, laudantium rem cum non, voluptatum earum hic facilis officia consequuntur eveniet. Ex, veritatis ratione optio quas laudantium cumque dolore. Quos recusandae saepe molestiae inventore impedit autem eveniet deleniti quis.</span>,
+        children:<span className='bg-transparent text-[1.1rem]'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore perferendis laborum facilis et veritatis deleniti non! Eligendi, voluptatem possimus. Architecto optio repudiandae aliquam dolores necessitatibus, asperiores veniam molestias laboriosam fugiat inventore sed ipsam et voluptate, impedit assumenda, rem ex esse. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat quaerat quia, laudantium rem cum non, voluptatum earum hic facilis officia consequuntur eveniet. Ex, veritatis ratione optio quas laudantium cumque dolore. Quos recusandae saepe molestiae inventore impedit autem eveniet deleniti quis.</span>,
    
       },
   ];
@@ -50,11 +50,10 @@ const FAQ = () => {
 
         <div className='w-full min-h-full md:min-h-[50vh]'
          style={{
-          background: "linear-gradient(to right, #f8da5a 50%, rgba(244, 227, 59, 0)), url('https://aactxg.stripocdn.email/content/guids/CABINET_f37167ea2322984dfeb6a0a05e92d2480b49356b15fb055bb2ce2e84131a12e4/images/vector_01.JPG')",
-          backgroundSize: 'cover',
-          backgroundPosition: 'center right',
-          backgroundAttachment: 'fixed', // This will make the background image remain fixed
-        }}
+            background: "linear-gradient(to right, #f8da5a 60%, rgba(244, 227, 59, 0)), url('https://aactxg.stripocdn.email/content/guids/CABINET_f37167ea2322984dfeb6a0a05e92d2480b49356b15fb055bb2ce2e84131a12e4/images/vector_01.JPG')",
+            backgroundSize: 'cover',
+            backgroundPosition: 'center right',
+          }}
           >
           <div className="paragraphs py-4 px-4 md:py-6 md:px-12 text-[1.5rem] text-left w-full flex items-center justify-center " >
 
