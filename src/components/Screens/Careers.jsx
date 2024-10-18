@@ -27,9 +27,9 @@ const Careers = () => {
       <div id="jobs">
         <JobListings />
       </div>
-      <div id="contacts">
+      {/* <div id="contacts">
         <Contacts />
-      </div>
+      </div> */}
     </div>
   );
 };

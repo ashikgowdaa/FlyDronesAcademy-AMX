@@ -35,9 +35,9 @@ const Home = () => {
       <div id="locations">
         <Locations />
       </div>
-      <div id="contacts">
+      {/* <div id="contacts">
         <Contacts />
-      </div>
+      </div> */}
     </div>
   );
 };

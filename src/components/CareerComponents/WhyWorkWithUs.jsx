@@ -4,15 +4,15 @@ const WhyWorkWithUs = () => {
 
   const data=[
     {
-        image:"https://amxdrones.com/wp-content/uploads/2023/08/Screenshot-2023-08-18-at-4.19.59-PM.png",
-        text:"Aerial Survey & Mapping"
+      image:"https://aactxg.stripocdn.email/content/guids/CABINET_f37167ea2322984dfeb6a0a05e92d2480b49356b15fb055bb2ce2e84131a12e4/images/icon_05.png",
+      text:"Aerial Survey & Mapping"
     },
     {
-        image:"https://amxdrones.com/wp-content/uploads/2023/08/Screenshot-2023-08-18-at-4.19.59-PM.png",
+      image:"https://aactxg.stripocdn.email/content/guids/CABINET_f37167ea2322984dfeb6a0a05e92d2480b49356b15fb055bb2ce2e84131a12e4/images/icon_06.png",
         text:"Lorem ipsum dolor sit"
     },
     {
-        image:"https://amxdrones.com/wp-content/uploads/2023/08/Screenshot-2023-08-18-at-4.19.59-PM.png",
+        image:"https://aactxg.stripocdn.email/content/guids/CABINET_f37167ea2322984dfeb6a0a05e92d2480b49356b15fb055bb2ce2e84131a12e4/images/icon_07.png",
         text:"Lorem ipsum dolor sit"
     },
 

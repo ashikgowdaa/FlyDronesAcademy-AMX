@@ -27,8 +27,9 @@ const Navbar = () => {
       <div className="text-container flex justify-center items-center gap-2 md:gap-8 text-[1.1rem] font-medium">
         <button onClick={() => handleNavigation('/', 'course-banner')}>Course</button>
         <button onClick={() => handleNavigation('/', 'descriptions')}>About Us</button>
-        <Link to="/careers">Careers</Link>
+        <button onClick={() => handleNavigation('/', 'faq')}>FAQ</button>
         <button onClick={() => handleNavigation('/', 'industry-applications')}>Benefits</button>
+        <Link to="/careers">Careers</Link>
       </div>
     </div>
   );

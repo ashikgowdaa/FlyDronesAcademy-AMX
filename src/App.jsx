@@ -3,6 +3,7 @@ import Navbar from './components/utils/Navbar';
 import Footer from './components/utils/Footer';
 import Home from './components/Screens/Home';
 import Careers from './components/Screens/Careers';
+import Contacts from './components/HomeComponents/Contacts';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/careers" element={<Careers />} />
       </Routes>
+      <Contacts />
       <Footer />
     </Router>
   );

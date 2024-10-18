@@ -37,3 +37,8 @@
   color: var(--primary) !important;
   border-top: 1px solid #d9d9d9 !important;
 }
+
+.justify-inter-word {
+  text-align: justify !important;
+  text-justify: inter-word !important;
+}
